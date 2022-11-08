@@ -18,6 +18,14 @@ function renderText(x, y, fontSize, color, text, font) {
 }
 
 function drawScoreboard() {
+	if(score>20){
+
+
+		window.alert("heloo");
+		window.location.replace("./clue2.html");
+
+
+	}
 	if (scoreOpacity < 1) {
 		scoreOpacity += 0.01;
 		textOpacity += 0.01;

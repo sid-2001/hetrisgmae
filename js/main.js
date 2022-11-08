@@ -108,7 +108,9 @@ function init(b) {
 		$("#currentHighScore").text(0);
 	}
 	else {
+
 		$("#currentHighScore").text(highscores[0])
+		// $("#currentHighScore").text(23);
 	}
 	infobuttonfading = true;
 	$("#pauseBtn").attr('src',"./images/btn_pause.svg");
